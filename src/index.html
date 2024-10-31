@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1><a href="#">Arsenal</a></h1>
+    </header>
+    <main>
+        <nav class="navbar">
+            <input type="checkbox" id="sidebar-active">
+            <label 
+                for="sidebar-active" 
+                class="navbar__sidebar--open">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff"><path d="M140-254.62v-59.99h680v59.99H140ZM140-450v-60h680v60H140Zm0-195.39v-59.99h680v59.99H140Z"/></svg>
+            </label>
+            <label 
+                id="overlay" 
+                for="sidebar-active">
+            </label>
+            <div class="links-container">
+                <label 
+                    for="sidebar-active" 
+                    class="navbar__sidebar--close">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff"><path d="M256-213.85 213.85-256l224-224-224-224L256-746.15l224 224 224-224L746.15-704l-224 224 224 224L704-213.85l-224-224-224 224Z"/></svg>
+                </label>
+                
+                <a href="#">Home</a>
+                <a href="./index.html">Team</a>
+                <a href="#">Membership</a>
+                <a href="./pages/table.html">Table</a>
+            </div>
+        </nav>
+
+        <section class="card-container">
+            <div class="card card1">
+                <img class="card__img" src="./assets/images/Raya.png" alt="Picture of David Raya">
+                <div class="card__player">
+                    <p>David Raya</p>
+                    <p class="player__number">22</p>
+                </div>
+                <div class="card__info">
+                    <p>Goalkeeper</p>
+                    <p>🇪🇸 Spain</p>
+                </div>
+            </div>
+            <div class="card card2">
+                <img class="card__img" src="./assets/images/Saliba.png" alt="Picture of William Saliba">
+                <div class="card__player">
+                    <p>William Saliba</p>
+                    <p class="player__number">2</p>
+                </div>
+                <div class="card__info">
+                    <p>Defender</p>
+                    <p>🇫🇷 France</p>
+                </div>
+            </div>
+            <div class="card card3">
+                <img class="card__img" src="./assets/images/White.png" alt="Picture of Ben White">
+                <div class="card__player">
+                    <p>Ben White</p>
+                    <p class="player__number">4</p>
+                </div>
+                <div class="card__info">
+                    <p>Defender</p>
+                    <p>🏴󠁧󠁢󠁥󠁮󠁧󠁿 England</p>
+                </div>
+            </div>
+            <div class="card card4">
+                <img class="card__img" src="./assets/images/Gabriel.png" alt="Picture of Gabriel">
+                <div class="card__player">
+                    <p>Gabriel</p>
+                    <p class="player__number">6</p>
+                </div>
+                <div class="card__info">
+                    <p>Defender</p>
+                    <p>🇧🇷 Brazil</p>
+                </div>
+            </div>
+            <div class="card card5">
+                <img class="card__img" src="./assets/images/Timber.png" alt="Picture of Jurrien Timber">
+                <div class="card__player">
+                    <p>Jurrien Timber</p>
+                    <p class="player__number">12</p>
+                </div>
+                <div class="card__info">
+                    <p>Defender</p>
+                    <p>🇳🇱 Netherlands</p>
+                </div>
+            </div>
+            <div class="card card6">
+                <img class="card__img" src="./assets/images/Calafiori.png" alt="Picture of Riccardo Calafiori">
+                <div class="card__player">
+                    <p>Riccardo Calafiori</p>
+                    <p class="player__number">33</p>
+                </div>
+                <div class="card__info">
+                    <p>Defender</p>
+                    <p>🇮🇹 Italy</p>
+                </div>
+            </div>
+            <div class="card card7">
+                <img class="card__img" src="./assets/images/Thomas.png" alt="Picture of Thomas Partey">
+                <div class="card__player">
+                    <p>Thomas</p>
+                    <p class="player__number">5</p>
+                </div>
+                <div class="card__info">
+                    <p>Midfielder</p>
+                    <p>🇬🇭 Ghana</p>
+                </div>
+            </div>
+            <div class="card card8">
+                <img class="card__img" src="./assets/images/Odegaard.png" alt="Picture of Martin Odegaard">
+                <div class="card__player">
+                    <p>Martin Odegaard</p>
+                    <p class="player__number">8</p>
+                </div>
+                <div class="card__info">
+                    <p>Midfielder</p>
+                    <p>🇳🇴 Norway</p>
+                </div>
+            </div>
+            <div class="card card9">
+                <img class="card__img" src="./assets/images/Jorginho.png" alt="Picture of Jorginho">
+                <div class="card__player">
+                    <p>Jorginho</p>
+                    <p class="player__number">20</p>
+                </div>
+                <div class="card__info">
+                    <p>Midfielder</p>
+                    <p>🇮🇹 Italy</p>
+                </div>
+            </div>
+            <div class="card card10">
+                <img class="card__img" src="./assets/images/Havertz.png" alt="Picture of Kai Havertz">
+                <div class="card__player">
+                    <p>Kai Havertz</p>
+                    <p class="player__number">29</p>
+                </div>
+                <div class="card__info">
+                    <p>Midfielder</p>
+                    <p>🇩🇪 Germany</p>
+                </div>
+            </div>
+            <div class="card card11">
+                <img class="card__img" src="./assets/images/Rice.png" alt="Picture of Declan Rice">
+                <div class="card__player">
+                    <p>Declan Rice</p>
+                    <p class="player__number">41</p>
+                </div>
+                <div class="card__info">
+                    <p>Midfielder</p>
+                    <p>🏴󠁧󠁢󠁥󠁮󠁧󠁿 England</p>
+                </div>
+            </div>
+            <div class="card card12">
+                <img class="card__img" src="./assets/images/Saka.png" alt="Picture of Bukayo Saka">
+                <div class="card__player">
+                    <p>Bukayo Saka</p>
+                    <p class="player__number">7</p>
+                </div>
+                <div class="card__info">
+                    <p>Forward</p>
+                    <p>🏴󠁧󠁢󠁥󠁮󠁧󠁿 England</p>
+                </div>
+            </div>
+            <div class="card card13">
+                <img class="card__img" src="./assets/images/Jesus.png" alt="Picture of Gabriel Jesus">
+                <div class="card__player">
+                    <p>Gabriel Jesus</p>
+                    <p class="player__number">9</p>
+                </div>
+                <div class="card__info">
+                    <p>Forward</p>
+                    <p>🇧🇷 Brazil</p>
+                </div>
+            </div>
+            <div class="card card14">
+                <img class="card__img" src="./assets/images/Martinelli.png" alt="Picture of Gabriel Martinelli">
+                <div class="card__player">
+                    <p>Gabriel Martinelli</p>
+                    <p class="player__number">11</p>
+                </div>
+                <div class="card__info">
+                    <p>Forward</p>
+                    <p>🇧🇷 Brazil</p>
+                </div>
+            </div>
+            <div class="card card15">
+                <img class="card__img" src="./assets/images/Trossard.png" alt="Picture of Leandro Trossard">
+                <div class="card__player">
+                    <p>Leandro Trossard</p>
+                    <p class="player__number">19</p>
+                </div>
+                <div class="card__info">
+                    <p>Forward</p>
+                    <p>🇧🇪 Belgium</p>
+                </div>
+            </div>
+            <div class="card card16">
+                <img class="card__img" src="./assets/images/Sterling.png" alt="Picture of Raheem Sterling">
+                <div class="card__player">
+                    <p>Raheem Sterling</p>
+                    <p class="player__number">30</p>
+                </div>
+                <div class="card__info">
+                    <p>Forward</p>
+                    <p>🏴󠁧󠁢󠁥󠁮󠁧󠁿 England</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="social">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">X</a>
+            <a href="#">Youtube</a>
+        </section>
+    </footer>
+</body>
+</html>

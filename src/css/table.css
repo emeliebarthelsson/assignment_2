@@ -1,0 +1,104 @@
+.container {
+    width: 100%;
+    min-width: 300px;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--space-medium);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: var(--font-size-medium);
+    color: var(--primary-color);
+}
+
+table,
+th,
+td {
+    padding: var(--space-small) var(--space-medium);
+    text-align: center;
+}
+
+.club {
+    text-align: left;
+}
+
+caption {
+    font-family: "KodeMono-Bold", sans-serif;
+    color: var(--primary-color);
+    margin-bottom: var(--space-small);
+}
+
+th {
+    background-color: var(--primary-background-color);
+    font-family: "KodeMono-Bold", sans-serif;
+    color: var(--secondary-color);
+}
+
+tr:first-of-type th:first-of-type {
+    border-top-left-radius: var(--border-radius);
+}
+
+tr:first-of-type th:last-of-type {
+    border-top-right-radius: var(--border-radius);
+}
+
+tr:last-of-type td:first-of-type {
+    border-bottom-left-radius: var(--border-radius);
+}
+
+tr:last-of-type td:last-of-type {
+    border-bottom-right-radius: var(--border-radius);
+}
+
+tr:nth-child(even) {
+    background-color: var(--primary-color-opacity);
+}
+
+tr:hover {
+    color: var(--primary-background-color);
+}
+
+.tablet {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        padding: var(--space-large);
+    }
+
+    table {
+        font-size: var(--font-size-large);
+    }
+
+    table,
+    th,
+    td {
+    padding: var(--space-medium) var(--space-medium);
+    }
+
+    .tablet {
+        display: table-cell;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding: var(--space-xx-large);
+    }
+
+    table {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    table {
+        width: 80%;
+    }
+}
