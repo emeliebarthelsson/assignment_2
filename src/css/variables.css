@@ -1,4 +1,5 @@
 :root {
+    /* color */
     --primary-background-color: #e30613;
     --secondary-background-color: #F6F6F6;
     --tertiary-background-color: #ffffff;
@@ -8,6 +9,7 @@
     --tertiary-color: #808080;
     --primary-color-opacity: #0b0d1407;
 
+    /* spacing */
     --space-x-small: 0.5rem;
     --space-small: 0.75rem;
     --space-medium: 1rem;
@@ -15,8 +17,10 @@
     --space-x-large: 2rem;
     --space-xx-large: 2.5rem;
 
-    --border-radius: 0.5rem;
+    /* border radius */
+    --border-radius: 0.1rem;
 
+    /* font size */
     --font-size-small: 0.75rem;
     --font-size-medium: 1rem;
     --font-size-large: 1.125rem;

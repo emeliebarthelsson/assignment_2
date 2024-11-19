@@ -8,38 +8,31 @@
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/index.css">
-    <title>Document</title>
+    <title>Team</title>
 </head>
 <body>
     <header>
+        <!-- heading -->
         <h1><a href="#">Arsenal</a></h1>
     </header>
     <main>
         <nav class="navbar">
-            <input type="checkbox" id="sidebar-active">
-            <label 
-                for="sidebar-active" 
-                class="navbar__sidebar--open">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff"><path d="M140-254.62v-59.99h680v59.99H140ZM140-450v-60h680v60H140Zm0-195.39v-59.99h680v59.99H140Z"/></svg>
-            </label>
-            <label 
-                id="overlay" 
-                for="sidebar-active">
-            </label>
-            <div class="links-container">
-                <label 
-                    for="sidebar-active" 
-                    class="navbar__sidebar--close">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff"><path d="M256-213.85 213.85-256l224-224-224-224L256-746.15l224 224 224-224L746.15-704l-224 224 224 224L704-213.85l-224-224-224 224Z"/></svg>
-                </label>
-                
-                <a href="#">Home</a>
-                <a href="./index.html">Team</a>
-                <a href="#">Membership</a>
-                <a href="./pages/table.html">Table</a>
+            <!-- toggle -->
+            <div class="navbar__toggle-container">
+                <button class="navbar__toggle">
+                    <svg class="navbar__toggle-svg" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff"><path d="M140-254.62v-59.99h680v59.99H140ZM140-450v-60h680v60H140Zm0-195.39v-59.99h680v59.99H140Z"/></svg>
+                </button>
             </div>
+            <!-- navbar links -->
+            <div class="navbar__links-container">
+                <ul class="navbar__links">
+                    <li class="navbar__link"><a href="#">Home</a></li>
+                    <li class="navbar__link navbar__link--active"><a href="./index.html">Team</a></li>
+                    <li class="navbar__link"><a href="#">Membership</a></li>
+                    <li class="navbar__link"><a href="./pages/table.html">Table</a></li>
+                </ul>
         </nav>
-
+        <!-- main content -->
         <section class="card-container">
             <div class="card card1">
                 <img class="card__img" src="./assets/images/Raya.png" alt="Picture of David Raya">
@@ -219,6 +212,7 @@
             </div>
         </section>
     </main>
+    <!-- footer -->
     <footer>
         <section class="social">
             <a href="#">Facebook</a>
@@ -227,5 +221,6 @@
             <a href="#">Youtube</a>
         </section>
     </footer>
+    <script src="./js/app.js"></script>
 </body>
 </html>

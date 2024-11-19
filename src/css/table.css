@@ -1,3 +1,4 @@
+/* mobile */
 .container {
     width: 100%;
     min-width: 300px;
@@ -67,6 +68,7 @@ tr:hover {
     display: none;
 }
 
+/* tablet */
 @media screen and (min-width: 768px) {
     .container {
         padding: var(--space-large);
@@ -87,6 +89,7 @@ tr:hover {
     }
 }
 
+/* desktop small */
 @media screen and (min-width: 1024px) {
     .container {
         padding: var(--space-xx-large);
@@ -97,6 +100,7 @@ tr:hover {
     }
 }
 
+/* desktop medium */
 @media screen and (min-width: 1280px) {
     table {
         width: 80%;
