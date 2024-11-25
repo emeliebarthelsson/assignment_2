@@ -9,7 +9,7 @@ Purpose of this assignment:
 - Create flexible and adaptive layouts that work across different screen sizes
 
 ## Credit
-- Picture of players gathered from https://www.arsenal.com/men/players
+- Picture of players and information about players gathered from https://www.arsenal.com/men/players
 - Icons from Google Icons
 
 ## Github repository
