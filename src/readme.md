@@ -11,6 +11,7 @@ Purpose of this assignment:
 ## Credit
 - Picture of players and information about players gathered from https://www.arsenal.com/men/players
 - Icons from Google Icons
+- Navbar inspired by school workshops
 
 ## Github repository
 https://github.com/emeliebarthelsson/assignment_2.git
