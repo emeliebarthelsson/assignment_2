@@ -17,7 +17,7 @@ Purpose of this assignment:
 https://github.com/emeliebarthelsson/assignment_2.git
 
 ## Netlify
-
+https://dreamy-haupia-7df681.netlify.app/
 
 ## Author
 Emelie Barthelsson 
